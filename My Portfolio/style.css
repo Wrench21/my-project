@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&display=swap');
+/* Design */
+body {
+    background-image: linear-gradient(-160deg, pink, lightblue);
+}
+
+h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    background-image: linear-gradient(160deg, pink, #fdfd96);
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 24px;
+    height: 55px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Layout */
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.semi-heading {
+    position: absolute;
+    top: 47%;
+    left: 35%;
+    transform: translate(-50%, 50%);
+}
+
+.btn {
+    position: absolute;
+    left: 54%;
+    top: 46%;
+}
+
+.paragraph {
+    position: absolute;
+    left: 29%;
+    top: 60%;
+}
+
+.tweet {
+    position: absolute;
+    left: 29%;
+    top: 80%;
+}
+
+.tweet-logo {
+    position: absolute;
+    left: 30%;
+    top: 78%;
+}
+
+.git {
+    position: absolute;
+    left: 35%;
+    top: 80%;
+}
+
+.git-logo {
+    position: absolute;
+    left: 36%;
+    top: 78%;
+}
+
+.facebook {
+    position: absolute;
+    left: 41%;
+    top: 80%;
+}
+
+.meta-logo {
+    position: absolute;
+    left: 42%;
+    top: 78%;
+}
+
+a:link {
+    text-decoration: none;
+    
+}
